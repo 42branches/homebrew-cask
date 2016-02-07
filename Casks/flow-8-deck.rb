@@ -6,4 +6,6 @@ cask 'flow-8-deck' do
   name 'Flow 8 Deck'
   homepage 'http://flow8deck.com/'
   license :commercial  
+  
+  app 'Flow 8 Deck.app'
 end

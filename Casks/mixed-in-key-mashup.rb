@@ -6,4 +6,6 @@ cask 'mixed-in-key-mashup' do
   name 'Mixed in Key Mashup'
   homepage 'http://mixedinkey.com'
   license :commercial 
+  
+  app 'Mixed in Key Mashup.app'
 end

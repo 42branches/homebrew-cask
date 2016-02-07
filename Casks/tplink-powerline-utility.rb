@@ -6,4 +6,7 @@ cask 'tplink-powerline-utility' do
   name 'Powerline Utility'
   homepage 'http://uk.tp-link.com/products/details/cat-18_TL-PA411KIT.html'
   license :gratis
+  
+  container :nested => 'Powerline Utility.dmg'
+  app 'Powerline Utility.app'
 end
